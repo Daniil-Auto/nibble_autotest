@@ -13,7 +13,7 @@ class TestLoginFromMainPage():
         page = MainPage(browser, link)
         page.open()
         page.should_be_login_link()
-
+    
     #Гость может перейти на страницу Логина
     def test_guest_can_go_to_login_page(self,browser):
         page = MainPage(browser, link)   # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес 
@@ -62,7 +62,7 @@ class TestLanguageChange():
         page_es.should_be_es()
         page.language_switcher_en()
         page.should_be_en()
-
+    
     def test_guest_can_change_languages_de(self,browser):
         page = MainPage(browser, link)
         page.open()

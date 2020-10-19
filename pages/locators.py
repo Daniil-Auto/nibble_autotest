@@ -59,4 +59,25 @@ class ProfilMainPageLocators():
     PERIOD_FIELD = (By.CSS_SELECTOR, ".calculator__range > .calculator__range-value:nth-child(3)")
     PERCENT = (By.CSS_SELECTOR, ".products-list__key-value.js-calcPercent")
     PROFIT_IN_CALCULATOR = (By.CSS_SELECTOR, "form >ul >li:nth-child(3) > .stat-value")
+
+class SettingsPageLocators():
+    PRESONAL_INFORMATION_TAB = (By.CSS_SELECTOR, ".tabs__wrapper> li")
+    NAME_FIELD = (By.CSS_SELECTOR, "#settingsName")
+    SURNAME_FIELD = (By.CSS_SELECTOR, "#settingsSurname")
+    PHONE_FIELD = (By.CSS_SELECTOR, "#settingsPhone")
+    BIRTHDAY_FIELD = (By.CSS_SELECTOR, "#settingsBirthday")
+    PASSPORT_FIELD = (By.CSS_SELECTOR, "#settingsPassport")
+    CITY_FIELD = (By.CSS_SELECTOR, "#settingsCity")
+    ADDRESS_1_FIELD = (By.CSS_SELECTOR, "#settingsAddress_1")
+    ZIP_FIELD = (By.CSS_SELECTOR, "#settingsZIP")
     
+    CHANGE_PASSWORD_TAB = (By.CSS_SELECTOR, ".tabs__wrapper> li:nth-child(2)")
+    PASSWORD_CURRENT_FIELD = (By.CSS_SELECTOR, "#settingsPasswordCurrent")
+    NEW_PASSWORD_FIELD = (By.CSS_SELECTOR, "#settingsPassNew")
+    REPEAT_PASSWORD_FIELD = (By.CSS_SELECTOR, "#settingsPassRepeat")
+    
+    DETAILS_TAB = (By.CSS_SELECTOR, ".tabs__wrapper> li:nth-child(3)")
+    BANK_FIELD = (By.CSS_SELECTOR, "#settingsBank")
+    BANK_NUMBER_FIELD = (By.CSS_SELECTOR, "#settingsBankNumber")
+    
+    SETTINGS_TAB = (By.CSS_SELECTOR, ".tabs__wrapper> li:nth-child(4)")

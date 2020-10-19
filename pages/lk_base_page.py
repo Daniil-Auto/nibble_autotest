@@ -7,21 +7,7 @@ from selenium.common.exceptions import TimeoutException
 from .locators import LkBasePageLocators
 
 class LkBasePage(BasePage):
-    def go_to_my_investments_page(self):
-        link = self.browser.find_element(*LkBasePageLocators.MY_INVESTMENTS_LINK)
-        link.click()
-
-    def go_to_balance_page(self):
-        link = self.browser.find_element(*LkBasePageLocators.BALANCE_LINK)
-        link.click()
-
-    def go_to_help_page(self):
-        link = self.browser.find_element(*LkBasePageLocators.HELP_LINK)
-        link.click()
-
-    def go_to_settings_page(self):
-        link = self.browser.find_element(*LkBasePageLocators.SETTINGS_LINK)
-        link.click()
+    
 
     def should_be_ru(self):
         button_login = self.browser.find_element(*BasePageLocators.LOGOUT_LINK).text
