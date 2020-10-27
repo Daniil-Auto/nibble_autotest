@@ -4,7 +4,7 @@ from .pages.login_page import LoginPage
 
 link = "https://back-preprod.nibble.finance/login.aspx"
 
-class TestUserAddToBasketFromProductPage():
+class TestUserCanLogin():
     @pytest.fixture(scope="function",autouse=True)
     # Setup авторизация пользователя
     def setup(self, browser):

@@ -70,14 +70,18 @@ class SettingsPageLocators():
     CITY_FIELD = (By.CSS_SELECTOR, "#settingsCity")
     ADDRESS_1_FIELD = (By.CSS_SELECTOR, "#settingsAddress_1")
     ZIP_FIELD = (By.CSS_SELECTOR, "#settingsZIP")
+    BUTTON_PERSONAL_INFORMATION = (By.CSS_SELECTOR, "#btn_person_save")
     
     CHANGE_PASSWORD_TAB = (By.CSS_SELECTOR, ".tabs__wrapper> li:nth-child(2)")
     PASSWORD_CURRENT_FIELD = (By.CSS_SELECTOR, "#settingsPasswordCurrent")
     NEW_PASSWORD_FIELD = (By.CSS_SELECTOR, "#settingsPassNew")
     REPEAT_PASSWORD_FIELD = (By.CSS_SELECTOR, "#settingsPassRepeat")
+    BUTTON_CHANGE_PASSWORD = (By.CSS_SELECTOR, "#btn_password_save")
     
     DETAILS_TAB = (By.CSS_SELECTOR, ".tabs__wrapper> li:nth-child(3)")
     BANK_FIELD = (By.CSS_SELECTOR, "#settingsBank")
     BANK_NUMBER_FIELD = (By.CSS_SELECTOR, "#settingsBankNumber")
+    BUTTON_CHANGE_PASSWORD = (By.CSS_SELECTOR, "#btn_password_save")
     
     SETTINGS_TAB = (By.CSS_SELECTOR, ".tabs__wrapper> li:nth-child(4)")
+    BUTTON_SETTINGS = (By.CSS_SELECTOR, "#btn_main_save")

@@ -33,9 +33,6 @@ class ProfileMainPage(BasePage):
         link = self.browser.find_element(*LkBasePageLocators.SETTINGS_LINK)
         link.click()
 
-    def should_be_settings_page(self):
-        assert 'settings' in self.browser.current_url, "Cant find words Settings in url"
-
     #Расчёт без реинвестирования
     def profit_without_reinvestment(self,initial_amount,monthly_deposit,period):
         initial_field = self.browser.find_element(*ProfilMainPageLocators.INITIAL_AMOUNT_FIELD)

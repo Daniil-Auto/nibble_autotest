@@ -2,6 +2,7 @@ import pytest
 from .pages.lk_base_page import LkBasePage
 from .pages.login_page import LoginPage
 from .pages.profile_main_page import ProfileMainPage
+from .pages.settings_page import SettingsPage
 
 link = "https://my.nibble.finance/profile.aspx"
 class TestUserShouldBeLogin():
